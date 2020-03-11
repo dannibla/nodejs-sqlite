@@ -1,0 +1,16 @@
+[0mGET /node/sqlite/create [36m304 [0m27.442 ms - -[0m
+Executing (default): INSERT OR IGNORE INTO `Orders` (`customerName`,`productCode`,`unitsOrdered`,`unitPrice`,`status`,`createdAt`,`updatedAt`) VALUES ('Daniel','1','23','420.50','PENDING','2020-03-11 13:15:28.731 +00:00','2020-03-11 13:15:28.731 +00:00'); UPDATE `Orders` SET `customerName`='Daniel',`productCode`='1',`unitsOrdered`='23',`unitPrice`='420.50',`updatedAt`='2020-03-11 13:15:28.731 +00:00' WHERE (`id` IS NULL)
+[0mPOST /node/sqlite/upsert [36m302 [0m137.661 ms - 70[0m
+Executing (default): SELECT `id`, `customerName`, `productCode`, `unitsOrdered`, `unitPrice`, `status`, `createdAt`, `updatedAt` FROM `Orders` AS `Order` ORDER BY `Order`.`createdAt` DESC;
+[0mGET /node/sqlite/ [32m200 [0m22.450 ms - 5788[0m
+[0mGET /node/sqlite/create [36m304 [0m18.367 ms - -[0m
+Executing (default): SELECT `id`, `customerName`, `productCode`, `unitsOrdered`, `unitPrice`, `status`, `createdAt`, `updatedAt` FROM `Orders` AS `Order` ORDER BY `Order`.`createdAt` DESC;
+[0mGET /node/sqlite/ [36m304 [0m16.803 ms - -[0m
+Executing (default): SELECT `id`, `customerName`, `productCode`, `unitsOrdered`, `unitPrice`, `status`, `createdAt`, `updatedAt` FROM `Orders` AS `Order` WHERE `Order`.`id` = '3';
+[0mGET /node/sqlite/edit/3 [32m200 [0m23.059 ms - 5877[0m
+Executing (default): INSERT OR IGNORE INTO `Orders` (`id`,`customerName`,`productCode`,`unitsOrdered`,`unitPrice`,`status`,`createdAt`,`updatedAt`) VALUES ('3','Daniel','1','23','420.5','','2020-03-11 13:15:46.554 +00:00','2020-03-11 13:15:46.554 +00:00'); UPDATE `Orders` SET `id`='3',`customerName`='Daniel',`productCode`='1',`unitsOrdered`='23',`unitPrice`='420.5',`status`='',`updatedAt`='2020-03-11 13:15:46.554 +00:00' WHERE (`id` = '3')
+[0mPOST /node/sqlite/upsert [36m302 [0m86.219 ms - 70[0m
+Executing (default): SELECT `id`, `customerName`, `productCode`, `unitsOrdered`, `unitPrice`, `status`, `createdAt`, `updatedAt` FROM `Orders` AS `Order` ORDER BY `Order`.`createdAt` DESC;
+[0mGET /node/sqlite/ [32m200 [0m9.465 ms - 5781[0m
+Executing (default): SELECT `id`, `customerName`, `productCode`, `unitsOrdered`, `unitPrice`, `status`, `createdAt`, `updatedAt` FROM `Orders` AS `Order` ORDER BY `Order`.`createdAt` DESC;
+[0mGET /node/sqlite/ [36m304 [0m6.309 ms - -[0m

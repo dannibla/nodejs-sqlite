@@ -1,0 +1,7 @@
+Executing (default): SELECT `id`, `customerName`, `productCode`, `unitsOrdered`, `unitPrice`, `status`, `createdAt`, `updatedAt` FROM `Orders` AS `Order` ORDER BY `Order`.`createdAt` DESC;
+[0mGET /node/sqlite/ [32m200 [0m57.322 ms - 3941[0m
+[0mGET /node/sqlite/create [32m200 [0m13.805 ms - 5410[0m
+Executing (default): INSERT OR IGNORE INTO `Orders` (`customerName`,`productCode`,`unitsOrdered`,`unitPrice`,`status`,`createdAt`,`updatedAt`) VALUES ('Daniel','234234','90','300','PENDING','2020-03-11 13:10:23.423 +00:00','2020-03-11 13:10:23.423 +00:00'); UPDATE `Orders` SET `customerName`='Daniel',`productCode`='234234',`unitsOrdered`='90',`unitPrice`='300',`updatedAt`='2020-03-11 13:10:23.423 +00:00' WHERE (`id` IS NULL)
+[0mPOST /node/sqlite/upsert [36m302 [0m237.744 ms - 46[0m
+Executing (default): SELECT `id`, `customerName`, `productCode`, `unitsOrdered`, `unitPrice`, `status`, `createdAt`, `updatedAt` FROM `Orders` AS `Order` ORDER BY `Order`.`createdAt` DESC;
+[0mGET /node/sqlite/ [32m200 [0m21.970 ms - 4866[0m

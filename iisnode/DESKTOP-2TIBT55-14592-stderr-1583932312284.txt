@@ -1,0 +1,24 @@
+(node:14592) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+Error: Failed to lookup view "/node/sqlite/upsert" in views directory "C:\Program Files\iisnode\www\sqlite\views"
+    at Function.render (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\response.js:1012:7)
+    at C:\Program Files\iisnode\www\sqlite\routes\order.js:21:7
+    at Layer.handle [as handle_request] (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:317:13)
+    at C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:317:13)
+    at C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:284:7

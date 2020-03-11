@@ -1,0 +1,2 @@
+Executing (default): SELECT `id`, `customerName`, `productCode`, `unitsOrdered`, `unitPrice`, `status`, `createdAt`, `updatedAt` FROM `Orders` AS `Order` ORDER BY `Order`.`createdAt` DESC;
+[0mGET /node/sqlite/ [32m200 [0m69.300 ms - 4819[0m

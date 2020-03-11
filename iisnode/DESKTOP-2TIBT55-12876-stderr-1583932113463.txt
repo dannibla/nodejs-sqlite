@@ -1,0 +1,64 @@
+Error: Not Found
+    at C:\Program Files\iisnode\www\sqlite\routes\index.js:8:13
+    at Layer.handle [as handle_request] (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:317:13)
+    at C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:317:13)
+    at C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (C:\Program Files\iisnode\www\sqlite\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (events.js:311:20)
+    at SendStream.error (C:\Program Files\iisnode\www\sqlite\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Program Files\iisnode\www\sqlite\node_modules\send\index.js:421:12)
+    at next (C:\Program Files\iisnode\www\sqlite\node_modules\send\index.js:763:28)
+    at C:\Program Files\iisnode\www\sqlite\node_modules\send\index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:166:21)
+(node:12876) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+Error: Not Found
+    at C:\Program Files\iisnode\www\sqlite\routes\index.js:8:13
+    at Layer.handle [as handle_request] (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:317:13)
+    at C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:317:13)
+    at C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (C:\Program Files\iisnode\www\sqlite\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (events.js:311:20)
+    at SendStream.error (C:\Program Files\iisnode\www\sqlite\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Program Files\iisnode\www\sqlite\node_modules\send\index.js:421:12)
+    at next (C:\Program Files\iisnode\www\sqlite\node_modules\send\index.js:763:28)
+    at C:\Program Files\iisnode\www\sqlite\node_modules\send\index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:166:21)
+Error: Not Found
+    at C:\Program Files\iisnode\www\sqlite\routes\index.js:8:13
+    at Layer.handle [as handle_request] (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:317:13)
+    at C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:317:13)
+    at C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:275:10)
+    at SendStream.error (C:\Program Files\iisnode\www\sqlite\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (events.js:311:20)
+    at SendStream.error (C:\Program Files\iisnode\www\sqlite\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Program Files\iisnode\www\sqlite\node_modules\send\index.js:421:12)
+    at next (C:\Program Files\iisnode\www\sqlite\node_modules\send\index.js:763:28)
+    at C:\Program Files\iisnode\www\sqlite\node_modules\send\index.js:771:23
+    at FSReqCallback.oncomplete (fs.js:166:21)

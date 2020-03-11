@@ -1,0 +1,19 @@
+(node:13952) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+Error: Not Found
+    at C:\Program Files\iisnode\www\sqlite\app.js:52:13
+    at Layer.handle [as handle_request] (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:317:13)
+    at C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:458:21)
+Error: Not Found
+    at C:\Program Files\iisnode\www\sqlite\app.js:52:13
+    at Layer.handle [as handle_request] (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:317:13)
+    at C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\Program Files\iisnode\www\sqlite\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:458:21)

@@ -1,0 +1,7 @@
+Executing (default): SELECT `id`, `customerName`, `productCode`, `unitsOrdered`, `unitPrice`, `status`, `createdAt`, `updatedAt` FROM `Orders` AS `Order` ORDER BY `Order`.`createdAt` DESC;
+[0mGET /node/sqlite/ [36m304 [0m59.741 ms - -[0m
+[0mGET /node/sqlite/create [32m200 [0m12.337 ms - 5374[0m
+[0mGET /node/sqlite/upsert [33m404 [0m20.406 ms - 4262[0m
+[0mGET /node/sqlite/upsert [33m404 [0m6.893 ms - 4262[0m
+Executing (default): SELECT `id`, `customerName`, `productCode`, `unitsOrdered`, `unitPrice`, `status`, `createdAt`, `updatedAt` FROM `Orders` AS `Order` ORDER BY `Order`.`createdAt` DESC;
+[0mGET /node/sqlite/ [36m304 [0m24.990 ms - -[0m
